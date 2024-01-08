@@ -94,8 +94,55 @@
   * date/time
   * active/at rest
   * notes field
-* Blood Pressure
+ Blood Pressure
   * systolic - number
   * diastolic - number
   * date/time
-... (74 lines left)
+  * notes field
+* Weight
+  * amount
+  * date/time
+* Exercise
+  * type - long boarding, running, yoga, stretching, etc
+  * duration
+  * date/time
+  * quality - vigourus, relaxed, just for funsies
+* Summaries
+  * One pager to print and give to doctor
+* Sleep
+  * start - date/time
+  * end - date/time
+  * quality - like a rock, up all night, restless, off and on
+  * Do you remember dreaming - boolean
+  * notes field
+* Calendar view of all data (since it all has date/time)
+  * Month/Week/Day view
+  * Color coated
+    * Red - Pain
+    * Pink/Pastel - Period
+    * Yellow - Exercise
+    * Dark Green - Food
+    * Light Green - Weight
+    * Blue - Sleep
+    * Purple - Heart Rate
+    * Violet -Blood Pressure
+* Period
+  * start
+    * date/time
+    * notes field
+  * end
+    * date/time
+    * notes field
+  * more details
+    * cramps/no cramps
+    * color
+    * amount
+    * notes field
+
+
+### Nice to have
+
+* Any instructions
+* Calendar view
+  * Filter for different date types (pain, heart rate, etc)
+* Heart Rate
